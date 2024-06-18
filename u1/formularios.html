@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios HTML</title>
+    <!--Tipografía-->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/form.css" />
+  </head>
+  <body>
+    <header class="cabecera">
+      <h2>Formularios HTML</h2>
+    </header>
+    <main class="container">
+      <div class="item">
+        <h1>¿Dudas y Consultas? <span>Envía tu mensaje aquí</span></h1>
+
+        <p>
+          Queridos estudiantes, su participación es fundamental para el éxito de
+          nuestra clase. Les animamos a que dejen cualquier pregunta o duda que
+          tengan en el formulario que hemos proporcionado. No importa si piensan
+          que su pregunta es sencilla; todas las consultas son valiosas y ayudan
+          a enriquecer nuestro aprendizaje colectivo. Al compartir sus
+          inquietudes, no solo aclaran sus propias dudas, sino que también
+          contribuyen a que otros compañeros comprendan mejor los temas
+          tratados. ¡No duden en preguntar, su curiosidad es el motor de nuestro
+          crecimiento!
+        </p>
+      </div>
+      <div class="item">
+        <form action="#" method="post">
+          <input type="text" name="" id="" placeholder="Escribe tu nombre" />
+          <input
+            type="tel"
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+            name=""
+            id=""
+            placeholder="Ingresa tu número"
+          />
+          <input list="opciones" />
+          <datalist id="opciones">
+            <option value="Estudiante">Estudiante</option>
+            <option value="Empleado">Empleado</option>
+            <option value="Egresado">Egresado</option>
+            <option value="Aspirante">Aspirante</option>
+          </datalist>
+          <textarea
+            name="Mensaje"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Mensaje:"
+          ></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </main>
+    <footer class="pie">
+      <span
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aperiam,
+        laudantium, voluptates error accusantium magni sed, magnam ducimus vel
+        doloribus libero quia vitae neque excepturi maiores eum exercitationem
+        explicabo eos.</span
+      >
+    </footer>
+  </body>
+</html>
